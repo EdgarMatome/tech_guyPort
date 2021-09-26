@@ -12,12 +12,13 @@
         margin-left: 16%;
         background-color: #10121B;
         min-height: 100vh;
-        background: url(../img/back1.jpg) no-repeat;
+        background: #10121B;
+        // background: url(../img/back1.jpg) no-repeat;
         background-size: cover;
         background-position: center;
-        position: relative;
-        // .content{
-        //     margin: 3rem 10rem;
-        // }
+        position: absolute;
+        .content{
+            margin: 5rem 10rem;
+        }
     }
 }
