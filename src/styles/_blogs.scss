@@ -1,0 +1,39 @@
+.BlogsPage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    .blog{
+        background-color: #161925;
+        width: 100%;
+        padding: 1rem;
+        overflow: hidden;
+        .blog_content{
+            overflow: hidden;
+            padding-bottom: 2rem;
+            img{
+                width: 100%;
+                transition: all .4s ease-in-out;
+                &:hover{
+                    transform: scale(1.2);
+                }
+                padding-bottom: 1rem;
+            }
+        }
+        .blog-link{
+            color: inherit;
+            font-family: inherit;
+            text-decoration: none;
+            font-size: 1.3rem;
+            margin: 8rem 0;
+            padding-bottom: 1rem;
+            transition: all .4s ease-in-out;
+            &:hover{
+                color: #037fff;
+            }
+        }
+    }
+}
+
+.b-title{
+    margin-bottom: 3rem;
+}
