@@ -4,6 +4,8 @@ import { ImageSection } from "../components/ImageSection"
 import { SkillsSection } from "../components/SkillsSection"
 import { ServicesSection } from "../components/ServicesSection"
 import design from "../img/designer.png";
+import mobile from "../img/phone.png";
+import webDev from "../img/webdev.png";
 
 
 export const AboutPage = () => {
@@ -28,14 +30,16 @@ export const AboutPage = () => {
                 <SkillsSection skill={"MsSQL"} progress={"50%"} width={"50%"}/>
                 <SkillsSection skill={"Java"} progress={"63%"} width={"63%"}/>
             </div>
+            
+            <Title title={"Services"} span={"Services"}/>
             <div className="services-container">
                 <ServicesSection image={design} title={"web developer"} 
                 text={"lorem ssome text lorem ssome text lorem some text lorem ssome"}/>
 
-                <ServicesSection image={design} title={"Mobile developer"} 
+                <ServicesSection image={mobile} title={"Mobile developer"} 
                 text={"lorem ssome text lorem ssome text lorem ssome text lorem ssome"}/>
 
-                <ServicesSection image={design} title={"web design"} 
+                <ServicesSection image={webDev} title={"web design"} 
                 text={"lorem ssome text lorem ssome text lorem ssome text lorem ssome"}/>
                 
             </div>
