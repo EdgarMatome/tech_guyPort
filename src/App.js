@@ -5,7 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { HomePage } from "./pages/HomePage";
 import { AboutPage } from "./pages/AboutPage";
 import { Switch, Route } from "react-router";
-import { PortfolioPage } from "./pages/PortfolioPage";
+import  PortfolioPage  from "./pages/PortfolioPage";
 import { ContactPage } from "./pages/ContactPage";
 import { BlogsPage } from "./pages/BlogsPage";
 
