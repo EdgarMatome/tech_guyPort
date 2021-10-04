@@ -29,7 +29,7 @@ const portfolios =[
     },
     {
         id:3,
-        category: "Prototyping",
+        category: "Flutter",
         link1:"https://www.facebook.com/",
         link2:"https://www.facebook.com/",
         icon1: "G",
@@ -62,7 +62,7 @@ const portfolios =[
     },
     {
         id:6,
-        category: "Flutter",
+        category: "Prototyping",
         link1:"https://www.facebook.com/",
         link2:"https://www.facebook.com/",
         icon1: "G",

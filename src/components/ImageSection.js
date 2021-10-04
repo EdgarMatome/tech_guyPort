@@ -18,17 +18,17 @@ export const ImageSection = () => {
                         <p>Full Name</p>
                         <p>Age</p>
                         <p>Nationality</p>
-                        <p>Address</p>
                         <p>Languages</p>
                         <p>Country</p>
+                        <p>Address</p>
                     </div>
                     <div className="right-section">
                         <p>: The tech guy</p>
                         <p>: 28</p>
                         <p>: South African</p>
-                        <p>: 16 upper liesbeek road, Cape Town</p>
                         <p>: English, Sepedi, IsiZulu</p>
                         <p>: South African</p>
+                        <p>: 16 upper liesbeek road, Cape Town</p>
                     </div>
                 </div>
                 <button className="btn">Download CV</button>

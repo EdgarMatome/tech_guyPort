@@ -1,5 +1,6 @@
 import React from "react"
 import avatar from "../img/avatar.jpg";
+import logo from "../img/Edgar_logo.png"
 import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
@@ -8,7 +9,10 @@ export const Navbar = () => {
             
             <nav className="nav">
             <div className="profile">
-                <img src={avatar}  alt=""/>
+                <img src={avatar}  alt="profile"/>
+            </div>
+            <div className="brand-logo">
+                <img src={logo}  alt="profile"/>
             </div>
                 <ul className="nav-items">
                     <li className="nav-item">
@@ -39,7 +43,7 @@ export const Navbar = () => {
                 </ul>
                 <footer className="footer">
                 <p>
-                    @2021 Edgar Morudu
+                &copy;2021 Edgar Morudu
                 </p>
             </footer>
             </nav>

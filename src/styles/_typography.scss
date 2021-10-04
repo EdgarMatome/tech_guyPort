@@ -11,13 +11,18 @@
     color: #fff;
     text-align: center;
     font-size: 3rem;
+    @media screen  and (max-width:320px){
+        font-size: 2rem;
+        margin-top:2rem;
+    }
     span{
         color:#037FFF;
     }
 }
 
-.h-sub-texr{
+.h-sub-text{
     text-align: center;
+
 }
 
 .icons{

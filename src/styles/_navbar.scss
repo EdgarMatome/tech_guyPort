@@ -61,9 +61,16 @@
             p{
                 text-align: center;
                 padding: 1rem 0;
+                @media screen and (max-width:320px){
+                    font-size: .9rem;
+                }
+                @media screen  and (max-width:414px){
+                    font-size: .9rem;
+            }
             }
         }
     }
+    
 }
 
 .active{

@@ -8,14 +8,30 @@ import { Switch, Route } from "react-router";
 import  PortfolioPage  from "./pages/PortfolioPage";
 import { ContactPage } from "./pages/ContactPage";
 import { BlogsPage } from "./pages/BlogsPage";
+import { useState } from "react";
 
 function App() {
+  const [navToggle, setNaveToggle] = useState(false);
+
+ 
+  const navClick = () => {
+    setNaveToggle(!navToggle)
+    document.addEventListener("mousedown", () =>{
+      setNaveToggle(false);
+    });
+
+
+  }
   return (
     <div className="App">
-      <div className="sidebar">
+      <div id="sideB" className={`sidebar ${navToggle ? "nav-toggle": ""}`}>
         <Navbar/>
       </div>
-
+      <div className="nav-btn" id="Navtog" onClick={navClick}>
+         <div className="line1"></div>
+         <div className="line2"></div>
+         <div className="line3"></div>
+      </div>
       <div className="main-content">
         <div className="content">
           <Switch>

@@ -2,11 +2,33 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
+    @media screen and (max-width:828px) {
+        grid-template-columns: repeat(1,1fr);
+        margin:2rem .9rem;
+    }
+    @media screen and (max-width:570px) {
+        margin: 2rem 5rem;
+    }
+
+    @media screen  and (max-width:320px){
+        width: 90%;
+        margin: 1rem 1rem;
+}
+
+
     .blog{
         background-color: #161925;
         width: 100%;
         padding: 1rem;
         overflow: hidden;
+        @media screen  and (max-width:411px){
+            width: 17rem;
+            margin-left: -5.2rem;
+    }
+        @media screen  and (max-width:414px){
+            width: 19rem;
+            margin-left: -6.7rem;
+    }
         .blog_content{
             overflow: hidden;
             padding-bottom: 2rem;

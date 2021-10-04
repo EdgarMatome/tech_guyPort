@@ -7,6 +7,23 @@
         border-bottom:1px solid #2e344e;
         border-top:8px solid #2e344e;
         transition: all .4s ease-in-out;
+        @media screen and (max-width:1219px) {
+            width: 97%;
+
+        }
+        @media screen  and (max-width:414px){
+            margin-left: -1.1rem;
+    }
+
+        @media screen and (max-width:1211px) {
+            width: 100%;
+                margin-bottom: 2rem;
+        }
+
+        @media screen  and (max-width:320px){
+            margin-left: 2rem;
+        }
+       
         &:hover{
             border-top:8px solid #037fff;
         }
@@ -36,4 +53,13 @@
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;
+    @media screen and (max-width:1211px) {
+        flex-direction: column;
+    }
+    @media screen  and (max-width:411px){
+        width: 95%;
+        margin:2rem -1rem;
+        
+   
+}
 }

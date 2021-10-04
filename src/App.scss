@@ -37,3 +37,21 @@ body{
 span{
     color: #037FFF;
 }
+
+@media screen and (max-width:411px) {
+    html{
+        font-family: 50%;
+    }
+@media screen and (max-width:411px) {
+    h3{
+        font-family: 1%;
+    }
+}
+
+@media screen  and (max-width:411px){
+    .PortfolioPage{
+        margin-right: 4rem;
+    }
+}
+
+}

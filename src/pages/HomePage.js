@@ -17,8 +17,6 @@ export const HomePage = () => {
                     lorem ssome text lorem ssome text lorem ssome text lorem ssome text 
                     lorem ssome text lorem ssome text lorem ssome text lorem ssome text 
                     lorem ssome text lorem ssome text lorem ssome text lorem ssome text 
-                    
-              
                 </p>
                 <div className="icons">
                     <Link  className="icon-holder">
