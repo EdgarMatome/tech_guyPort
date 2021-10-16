@@ -1,4 +1,12 @@
 .AboutPage{
+    @media screen  and (max-width:320px){
+        margin: 2rem -.3rem;
+     
+    }
+    @media screen and (max-width: 360px) {
+        margin: 2rem -.3rem!important;
+       width: 100%;
+      }
     @media screen and (max-width:414px) {
         margin-left: -1rem;
     }
@@ -9,6 +17,17 @@
     display: flex;
     margin-top: 4rem;
     margin-bottom: 4rem;
+
+    @media screen and (max-width: 360px) {
+        margin-left: 1.8rem;
+        margin-right: -4rem;
+      }
+
+    @media screen  and (max-width:320px){
+        margin-left: 2rem;
+        width: 100%;
+     
+    }
     
     .img{
         width: 100%;
@@ -23,10 +42,7 @@
                 width: 90%;
                 height: 45vh;
             }
-            @media screen  and (max-width:320px){
-                margin-left: 1.5rem;
-             
-            }
+          
             @media screen  and (max-width:414px){
                 margin-left: -1.3rem;
         }
@@ -38,21 +54,35 @@
         margin-left: 2rem;
         h4{
             font-size: 2rem;
+           
             @media screen  and (max-width:320px){
-                margin-left: 1.5rem;
+                margin-left: -1rem;
+                font-size: 1.5rem;
              
             }
+            @media screen and (max-width: 360px) {
+                margin-left: -1.6rem;
+              }
+        }
+        .btn{
+            margin-left: -1rem;
         }
         .about-text{
             font-size: 1.5rem;
-            text-align: center;
+            // text-align: center;
+            margin-bottom: 1rem;
+            @media screen  and (max-width:320px){
+               text-align: center;
+               width: 95%;
+                margin-bottom: 1rem;
+            }
+            @media screen and (max-width: 360px) {
+               
+               width: 100%;
+              }
             @media screen and (max-width:1400px){
                 font-size: 1.1rem;
                 margin-bottom: .5rem;
-            }
-            @media screen  and (max-width:320px){
-                margin-left: 1.5rem;
-                margin-bottom: 2rem;
             }
             @media screen  and (max-width:411px){
                 margin-left: -2rem;
@@ -81,12 +111,15 @@
 .about-details{
     display: flex;
     @media screen  and (max-width:320px){
-        margin-left: 1.5rem;
+        margin-left: -.8rem;
+       
      
     }
+    
     p{
         padding: .1rem 0;
         font-size: 1.3rem;
+      
         @media screen and (max-width:1400px){
             font-size: 1rem;
         }
@@ -98,32 +131,39 @@
             margin-left: -1.1rem;
             font-size: 1rem;
     }
+    @media screen  and (max-width:320px){
+        font-size: .9rem;
+     
+    }
     }
     .right-section{
         margin-left: 2.3rem;
         @media screen  and (max-width:320px){
-            margin-left: 1rem;
+            margin-left: 1.5rem;
+            
         }
     }
 }
 
 .btn{
     padding: .2rem 1rem;
-    background-color: #037fff;
+    background-color: #05eeffc7;
     outline: none;
     border: none;
     font-family: inherit;
     font-size: inherit;
     color: white;
     text-transform: uppercase;
-    border-radius: .9rem;
+    border-radius: .5rem;
     cursor: pointer;
     letter-spacing: 2px;
     margin-top: 1rem;
     position: relative;
     @media screen  and (max-width:320px){
-        margin-left: 2.6rem;
+       display: none;
+      
     }
+    
     @media screen  and (max-width:414px){
         margin-left: 3rem;
 }
@@ -132,11 +172,11 @@
         position: absolute;
         width: 0;
         height: .3rem;
-        border-radius: .9rem;
+        border-radius: 1rem;
         left: 0;
         bottom: 0;
         // background-color: #0381ff3a;
-        background-color:#ffcb05;
+        background-color:#0b7077;
         transition: all 0.4s ease-in-out;
     }
     &:hover::after{

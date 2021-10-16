@@ -1,5 +1,5 @@
 import React from "react"
-import avatar from "../img/avatar.jpg";
+import mainImg from "../img/Edgar2.jpg";
 import logo from "../img/Edgar_logo.png"
 import { NavLink } from "react-router-dom";
 
@@ -9,7 +9,7 @@ export const Navbar = () => {
             
             <nav className="nav">
             <div className="profile">
-                <img src={avatar}  alt="profile"/>
+                <img src={mainImg}  alt="profile"/>
             </div>
             <div className="brand-logo">
                 <img src={logo}  alt="profile"/>

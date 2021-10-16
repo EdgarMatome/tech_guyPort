@@ -10,6 +10,7 @@ import { ContactPage } from "./pages/ContactPage";
 import { BlogsPage } from "./pages/BlogsPage";
 import { useState } from "react";
 
+
 function App() {
   const [navToggle, setNaveToggle] = useState(false);
 

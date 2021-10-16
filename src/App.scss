@@ -20,12 +20,12 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-    background-color: #0381ff9a;
+    background-color: #05F0FF;
     border-radius: 50px;
 }
 
 body::-webkit-scrollbar-track{
-    background-color: #516a83;
+    background-color: #585858;
 }
 
 body{
@@ -35,8 +35,10 @@ body{
 }
 
 span{
-    color: #037FFF;
+    color: #05F0FF;
 }
+
+
 
 @media screen and (max-width:411px) {
     html{

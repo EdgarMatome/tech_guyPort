@@ -9,15 +9,18 @@
     @media screen and (max-width:570px) {
         margin: 2rem 5rem;
     }
+    @media screen and (max-width: 360px) {
+        margin-left: 6rem;
+      }
 
     @media screen  and (max-width:320px){
-        width: 90%;
-        margin: 1rem 1rem;
+        width: 20%;
+        margin: 1rem 4.6rem;
 }
 
 
     .blog{
-        background-color: #161925;
+        background-color: #190720;
         width: 100%;
         padding: 1rem;
         overflow: hidden;

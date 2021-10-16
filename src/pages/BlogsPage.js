@@ -2,6 +2,7 @@ import React from "react";
 import allBlogs from "../components/allBlogs";
 import { Title } from "../components/Title";
 
+
 export const BlogsPage = () => {
     return (
         <div>

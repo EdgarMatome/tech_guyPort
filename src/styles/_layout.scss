@@ -1,11 +1,12 @@
 .App{
+
     .sidebar{
         width: 16%;
         height: 100vh;
-        background-color: #191D2B;
+        background-color: #2a0b36;
         position: fixed;
         z-index: 11;
-        border-right: 1px solid #2e344e;
+        border-right: 1px solid #3f10528f;
         transform-origin: left;
         @media screen and (max-width:1000px) {
             transition: all .4s ease-in-out;
@@ -36,10 +37,10 @@
     .main-content{
         width: 84%;
         margin-left: 16%;
-        background-color: #10121B;
+        background-color: #2f0d3d;
         min-height: 100vh;
-        background: #10121B;
-        // background: url(../img/back1.jpg) no-repeat;
+        
+        // background: url(../img/dopecode.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         position: absolute;
@@ -101,7 +102,7 @@
     .line1, .line2, .line3{
         height: 0.4rem;
         width: 100%;
-        background-color:#037fff;
+        background-color:#05F0FF;
         border-radius: 20px;
         pointer-events: none;
         display: none;
@@ -184,8 +185,11 @@
             img{
                 margin-top: -45%;
                 width: 99%;
-                
                 margin-bottom: 1rem;
+                @media screen  and (max-width:1400px){
+                   margin-top: .1rem;
+                   
+                }
             }
       }
   }

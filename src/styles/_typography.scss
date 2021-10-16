@@ -1,11 +1,29 @@
+// .HomeWrapper{
+//     position: relative;
+//     background: url(../img/blog3.jpg) no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   width: 100.3rem;
+//   margin-top: -5rem;
+//   height: 100vh;
+//   margin-left: -161px;
+//   @media screen  and (max-width:414px){
+//     width: 31rem;
+//     overflow-y: hidden;
+//     height: 110vh;
+   
+// }
+// }
 .HomePage{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width:80%;
+    width:80%; 
+    @media screen and (max-width: 360px) {
+        width:97%; 
+     }
 }
-
 
 .hero-text{
     color: #fff;
@@ -13,15 +31,24 @@
     font-size: 3rem;
     @media screen  and (max-width:320px){
         font-size: 2rem;
-        margin-top:2rem;
+        margin-top:6rem;
     }
+    @media screen  and (max-width:414px){
+        font-size: 2rem;
+        // margin-left: 20%;
+    }
+   
     span{
-        color:#037FFF;
+        color:#05F0FF;
     }
 }
 
 .h-sub-text{
     text-align: center;
+    @media screen  and (max-width:414px){
+    //    margin-left: 20%;
+       
+    }
 
 }
 
@@ -49,4 +76,15 @@
             color:purple;
         }
     }
+}
+
+
+
+// PARTICLES
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+
 }

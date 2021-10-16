@@ -5,6 +5,11 @@
     @media screen  and (max-width:375px){
         margin: 2rem .1rem;
 }
+@media screen  and (max-width:320px){
+    margin: 2rem 2rem;
+}
+
+
 }
 
 .portfolios{
@@ -26,6 +31,10 @@
     @media screen  and (max-width:320px){
         width: 15rem;
 }
+@media screen and (max-width: 360px) {
+    margin-left: 2rem;
+    width: 17rem;
+  }
     
     .portfolio{
         position: relative;
@@ -41,10 +50,10 @@
                 top:15px;
                 height: calc(100% - 150px);
                 width: calc(100% - 30px);
-                background-color: red;
+                background-color: #05F0FF;
                 transform-origin: center;
                 transform: scale(0);
-                opacity: 0.8;
+                opacity: 0.7;
                 transition: all .4s ease-in-out;
             }
             &:hover::before{
@@ -105,7 +114,7 @@
 // filter Btn
 .btn-port{
     padding: .2rem 1rem;
-    background-color: #0381ff6c;
+    background-color: #05eeffec;
     border:none;
     outline: none;
     cursor: pointer;
@@ -119,14 +128,17 @@
         margin-right: 1rem;
     }
     &:hover{
-        background-color: #037fff;
+        background-color: #05eeff91;
     }
     &:active{
-        background-color: #037fff;
+        background-color: #05eeff91;
     }
     &:focus{
-        background-color: #037fff;
+        background-color: #05eeff91;
     }
+
+    
+
 }
 
 .buttons{
@@ -142,7 +154,8 @@
         margin: 1.5rem 0rem; 
 }
 @media screen  and (max-width:320px){
-        margin: 1.1rem 9rem;
+    display:block;
+        margin: 1.1rem 1rem;
     }
     @media screen  and (max-width:414px){
         display: block;
@@ -155,7 +168,8 @@
         display:block;
         justify-content: center;
         align-items: center;
-        margin: 1.5rem 0rem;
+        width: 20rem;
+        margin: 1.5rem -.0rem;
         
     }
 }
