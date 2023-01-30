@@ -9,9 +9,9 @@ export const ImageSection = () => {
             </div>
             <div className="about-info">
                 <h4>I am <span>Edgar Morudu</span></h4>
-                <p className="about-text">lorem ssome text lorem ssome text lorem ssome text lorem
-                     ssome text lorem ssome text lorem ssome text lorem ssome text
-                     lorem ssome text lorem ssome text lorem ssome text lorem ssome text lorem ssome text
+                <p className="about-text">Developer who puts in a lot of effort and has a knack for coming up with elegant solutions quickly.
+                 I am a go-getter who is focused, resourceful, and passionate. Regular hackathon and developer meetup participant. 
+                 I'm eager to learn. I enjoy a challenge, and I focus on my tasks. I'm open to being proven wrong as a developer.
                 </p>
                 <div className="about-details">
                     <div className="left-section">
@@ -23,10 +23,10 @@ export const ImageSection = () => {
                     </div>
                     <div className="right-section">
                         <p>: Edgar Morudu</p>
-                        <p>: 28</p>
+                        <p>: 29</p>
                         <p>: South African</p>
                         <p>: English, Sepedi, IsiZulu</p>
-                        <p>: 16 upper liesbeek road, Cape Town</p>
+                        <p>: 26 Dartford Drive Parklands, Cape Town</p>
                     </div>
                 </div>
                 <button className="btn" disabled>Download CV</button>

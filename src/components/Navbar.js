@@ -43,7 +43,7 @@ export const Navbar = () => {
                 </ul>
                 <footer className="footer">
                 <p>
-                &copy;2021 Edgar Morudu
+                &copy;2023 Edgar Morudu
                 </p>
             </footer>
             </nav>

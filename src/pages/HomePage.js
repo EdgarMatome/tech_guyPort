@@ -41,7 +41,7 @@ export const HomePage = () => {
                     <span> Frontend Developer</span><br/>
                 <Typed
                  className="typed-text"
-                 strings={["Software Developer", "Web developer", "Mobile Developer", "Google ads" ]}
+                 strings={["Software Developer", "Web developer", "Mobile Developer", "UI/UX Developer" ]}
                  typeSpeed={40}
                  backSpeed={60}
                  loop
@@ -49,7 +49,7 @@ export const HomePage = () => {
                 </h1>
                 <p className="h-sub-text">
                     I am a Software developer From Cape Town, I enjoy 
-                    building everything from small businesses sites to rich interactive web and mobile apps.
+                    building everything from small businesses sites to rich interactive web pps.
                 </p>
                 <div className="icons">
                     <Link  className="icon-holder">

@@ -16,7 +16,7 @@ export const BlogsPage = () => {
                                     <div className="blog_content">
                                         <img src={blog.image} alt=""/>
                                     </div>
-                                    <a href={blog.link} className="blog-link">
+                                    <a href={blog.link} target="_blank" className="blog-link">
                                             {blog.title}
                                         </a>
                                         <div className="date-con">
